@@ -1,0 +1,399 @@
+
+
+.dr-down{
+   position: relative;
+    overflow: hidden;
+}
+
+.dr-down-link{
+    position: absolute;
+    top: 0;
+}
+.dr-down:hover .dr-down-link{
+    position: absolute;
+    top: 0;
+}
+
+
+.bg-image {
+    background-image: url("../images/bg-1.jpg");
+    width: 100%;
+    height: 84vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-two {
+    background-image: url("../images/bg-2.jpg");
+    width: 100%;
+    height: 84vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-text h1 {
+    font-size: 68px;
+    font-weight: bold;
+}
+
+
+.bg-image-text h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.top-baner {
+    position: relative;
+    overflow: hidden;
+}
+
+.gs-btn:hover {
+    background-color: #000;
+}
+
+
+
+.owl-prev {
+    position: absolute !important;
+    top: 47% !important;
+    background-color: black !important;
+    color: white !important;
+    left: -12px !important;
+    width: 25px !important;
+    font-size: 30px !important;
+    /* padding-top: 5px; */
+    transform: translateY(-45%) !important;
+    height: 64px !important;
+}
+
+.owl-next {
+    position: absolute !important;
+    top: 47% !important;
+    background-color: black !important;
+    color: white !important;
+    right: -6px !important;
+    width: 25px !important;
+    font-size: 30px !important;
+    /* padding-top: 5px; */
+    transform: translateY(-45%) !important;
+    height: 64px !important;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.bg-gray {
+    background-color: #f0f0f0;
+}
+
+.card-img {
+    position: relative !important;
+    /* width: 300px; */
+    overflow: hidden;
+}
+
+.card-text {
+    position: absolute;
+    top: 238px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 114, 215, .9);
+    transition: all .3s;
+}
+
+
+.card-text:hover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-dex {
+    /* background-color: rgba(66, 114, 215, .9);
+    color: white; */
+}
+
+.icon-dex i {
+    width: 50px;
+    height: 50px;
+    background-color: #4272d7;
+    border: 1px solid #4272d7;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: #fff;
+    transition: .35s;
+}
+
+.icon-dex:hover i {
+    color: #4272d7;
+    background-color: #fff;
+}
+
+.ixon {
+    position: relative;
+
+}
+
+.ixon i {
+    position: absolute;
+    /* background-color: brown; */
+    color: #fff;
+    top: 45%;
+    left: 45%;
+    font-size: 75px;
+    transition: .3s;
+}
+
+i:hover.fa-circle-play {
+    color: rgb(231, 225, 225);
+
+}
+
+.video-content-heading:hover {
+    color: #4272d7;
+}
+
+.main-tags {
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.btn-css {
+    background-color: #4272d7;
+    color: #fff;
+    padding: 14px;
+    border: 5px solid #9097a5;
+}
+
+.btn-css:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+
+/* footer  */
+
+
+
+.footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.footer-p p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 10px;
+}
+
+.phon p {
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.sochal-icon ul li {
+    list-style: none;
+}
+
+.sochal-icon ul li a:hover {
+    color: #fff;
+}
+
+
+.sochal-icon a {
+    text-decoration: none;
+    color: #aaaaaa;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.sochal-icon li {
+    list-style: none;
+    padding-bottom: 10px;
+    /* padding-left: 10px; */
+}
+
+.sochal-icon ul li a {
+    color: #aaaaaa;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+}
+
+
+.sochal-icon li i {
+    margin-right: 9px;
+}
+
+.sochal-icon ul {
+    padding: 0;
+    margin: 0%;
+}
+
+.red {
+    color: red;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.icon-wrap i {
+    padding: 12px;
+    background-color: #212121;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.icon-wrap i:hover {
+    padding: 12px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+.meta a {
+    font-size: 13px;
+    line-height: 1.6666666667;
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+a:hover {
+    color: rgba(66, 114, 215, .9);
+}
+
+.swiper-two {
+    position: relative;
+}
+
+.swiper-button-next {
+    position: absolute;
+    top: 20%;
+    right: 34%;
+    width: 35px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+.swiper-button-prev {
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    width: 35px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    position: absolute;
+    font-size: 12px;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px
+}
+
+
+.bg-wrap {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.bg-wrap-text {
+    position: relative;
+    color: white;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.bg-wrap-text:hover {
+    color: rebeccapurple !important;
+    pointer-events: auto !important;
+
+}
+
+@media sliding {
+    from{
+         background-color: magenta;
+         top: 0%;
+    }
+    to{
+        background-color: crimson;
+        bottom: 50%;
+    }
+}
+
+.bg-image-main {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+}
+
+.bg-images {
+    position: relative;
+    background-image: url("../images/ani-1.jpg");
+    width: 100%;
+    height: 88vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* clip-path: circle(100% at 33% 25%); */
+    clip-path: circle(30% at 84% 25%);
+    transition: all 3s;
+    animation: sliding 1s ease-in-out 0.5s infinite alternate ;
+    animation-play-state: running;
+}
+
+.bg-images:hover {
+    clip-path: circle(100% at 33% 25%);
+
+}
+
